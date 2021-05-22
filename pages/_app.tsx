@@ -1,6 +1,7 @@
 import '../styles/globals.css';
 
 function MyApp({ Component, pageProps }) {
+  
   return (
     <>
       <header className="bg-workattack flex justify-center">
