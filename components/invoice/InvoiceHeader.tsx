@@ -16,7 +16,7 @@ return (
       <h1 className="font-bold text-2xl mb-8">Proforma</h1>
       {
         headerData.map(({title, text}) => (
-        <span key={title} className="first:mb-4">
+        <span key={title} className="">
           <strong>{title}</strong>
           <p className="text-opacity-20">{text}</p>
         </span>
