@@ -5,6 +5,6 @@
 @layer base {
   html,
   body {
-    @apply antialiased min-h-screen;
+    @apply antialiased min-h-screen text-workattack-dark;
   }
 }
