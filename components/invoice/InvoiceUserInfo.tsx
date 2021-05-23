@@ -12,19 +12,19 @@ return (
     {
       usersInfo.map(_ui => (
         <div key={_ui.order} className="flex-1">
-          <span>
+          <span className="mb-4">
               <strong>Conta {_ui.order}:</strong>
-              <p className="w-11/12">{_ui.name}</p>
+              <p className="w-4/5">{_ui.name}</p>
           </span>
 
-          <span>
+          <span className="mb-4">
               <strong>Localização:</strong>
-              <p className="w-11/12">{_ui.adress}</p>
+              <p className="w-4/5">{_ui.adress}</p>
           </span>
 
           <span>
               <strong>Contactos</strong>
-              <p className="w-11/12">{_ui.contact}</p>
+              <p className="w-4/5">{_ui.contact}</p>
           </span>
         </div>
       ))
