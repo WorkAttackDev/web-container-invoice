@@ -8,16 +8,16 @@ const usersInfo = [
 const InvoiceUserInfo: React.FC<Props> = () => {
 
 return (
-  <section className="p-12 flex"> 
+  <section className="p-8 flex"> 
     {
       usersInfo.map(_ui => (
         <div key={_ui.order} className="flex-1">
-          <span className="mb-4 flex flex-col">
+          <span className="mb-2 flex flex-col">
               <strong>Conta {_ui.order}:</strong>
               <p className="w-4/5">{_ui.name}</p>
           </span>
 
-          <span className="mb-4 flex flex-col">
+          <span className="mb-2 flex flex-col">
               <strong>Localização:</strong>
               <p className="w-4/5">{_ui.adress}</p>
           </span>

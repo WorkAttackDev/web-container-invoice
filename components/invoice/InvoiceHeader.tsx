@@ -8,7 +8,7 @@ const headerData = [
 const InvoiceHeader:React.FC<Props> = () => {
 
 return (
-  <header className="flex w-full bg-gray-100 p-12">
+  <header className="flex w-full bg-gray-100 p-8">
     <figure className="flex-1 flex">
       <img className="w-12 h-12 object-contain" src="https://workattackangola.com/images/icon.png" alt="workattackangola"/>
     </figure>
