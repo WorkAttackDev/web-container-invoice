@@ -16,9 +16,9 @@ return (
       <h1 className="font-bold text-2xl mb-8">Proforma</h1>
       {
         headerData.map(({title, text}) => (
-        <span key={title} className=" flex flex-col mb-2 last:mb-0">
+        <span key={title} className=" flex flex-col mb-2 text-sm last:mb-0">
           <strong>{title}</strong>
-          <p className="text-sm">{text}</p>
+          <p className="">{text}</p>
         </span>
         ))
       }

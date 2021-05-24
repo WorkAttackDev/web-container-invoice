@@ -19,7 +19,9 @@
     body {
       width: 210mm !important;
       height: 297mm !important;
-      @apply !m-0 !p-0 !bg-white;
+      margin: 0 !important;
+      padding: 0 !important;
+      background-color: white;
     }
   }
 }
