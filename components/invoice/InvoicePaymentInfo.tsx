@@ -11,7 +11,7 @@ return (
       </span>
       <span className="flex justify-between pt-2 text-sm">
         <h5 className="font-medium">IBAN</h5>
-        <p>00AO 1234 5678 0000 1234 1</p>
+        <p>AO06 0051 0000 1029 8831 1015 0</p>
       </span>
       <span className="flex justify-between pt-2 text-sm">
         <h5 className="font-medium">Nome da Conta</h5>

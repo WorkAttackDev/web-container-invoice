@@ -8,12 +8,12 @@ const headerData = [
 const InvoiceHeader:React.FC<Props> = () => {
 
 return (
-  <header className="flex w-full bg-gray-100 p-8">
+  <header className="flex w-full bg-gray-100 p-8 pb-6">
     <figure className="flex-1 flex">
       <img className="w-12 h-12 object-contain" src="https://workattackangola.com/images/icon.png" alt="workattackangola"/>
     </figure>
     <div className="flex-1">
-      <h1 className="font-bold text-2xl mb-8">Proforma</h1>
+      <h1 className="font-bold text-2xl mb-6">Proforma</h1>
       {
         headerData.map(({title, text}) => (
         <span key={title} className=" flex flex-col mb-2 text-sm last:mb-0">
