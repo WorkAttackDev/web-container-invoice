@@ -1,5 +1,7 @@
 import InvoiceHeader from "../components/invoice/InvoiceHeader";
 import InvoiceUserInfo from "../components/invoice/InvoiceUserInfo";
+import InvoiceItems from "../components/invoice/InvoiceItems";
+import InvoicePaymentInfo from "../components/invoice/InvoicePaymentInfo";
 
 type Props = {};
 
@@ -12,6 +14,8 @@ return (
       <div className="w-[210mm] h-[297mm]  bg-white shadow">
         <InvoiceHeader />
         <InvoiceUserInfo />
+        <InvoiceItems />
+        <InvoicePaymentInfo />
       </div>
  </main>);
 

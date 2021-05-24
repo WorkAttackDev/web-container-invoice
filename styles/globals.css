@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -5,6 +7,19 @@
 @layer base {
   html,
   body {
-    @apply antialiased min-h-screen text-workattack-dark;
+    @apply antialiased min-h-screen text-workattack-dark font-sans;
+  }
+
+  @page {
+    size: A4;
+  }
+
+  @media print {
+    html,
+    body {
+      width: 210mm !important;
+      height: 297mm !important;
+      @apply !m-0 !p-0 !bg-white;
+    }
   }
 }

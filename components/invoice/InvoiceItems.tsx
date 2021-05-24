@@ -17,15 +17,15 @@ return (
     </ul>
     <ul className="p-8 pb-4">
       {invoiceItemsData.map(_ivid => (
-        <li className="flex pb-2 last:pb-0" key={_ivid.description}>
-          <h3 className="w-1/2 font-semibold">{_ivid.description}</h3>
+        <li className="flex pb-2 text-sm last:pb-0" key={_ivid.description}>
+          <h3 className="w-1/2 font-medium">{_ivid.description}</h3>
           <p className="w-1/6">{formatPrice(_ivid.price)}</p>
           <p className="w-1/6 text-center">{_ivid.quantity}</p>
           <p className="w-1/6 text-right">{formatPrice(_ivid.totalPrice)}</p>
         </li>
       ))}
     </ul>
-    <div className="flex flex-col ml-auto pr-8  w-1/2">
+    <div className="flex flex-col ml-auto pr-8 text-sm  w-1/2">
       <span className="flex justify-between pt-4 border-t-2">
         <h5>Subtotal</h5>
         <p>400.000 Kz</p>

@@ -5,6 +5,16 @@ module.exports = {
   purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    fontFamily: {
+      sans: [
+        'Rubik',
+        'ui-sans-serif',
+        'system-ui',
+        '-apple-system',
+        'BlinkMacSystemFont',
+        'Segoe UI'
+      ]
+    },
     colors: {
       workattack: {
         DEFAULT: '#ff811c',
@@ -19,7 +29,11 @@ module.exports = {
       red: colors.rose,
       yellow: colors.amber
     },
-    extend: {}
+    extend: {
+      screens: {
+        print: { raw: 'print' }
+      }
+    }
   },
   variants: {
     extend: {}

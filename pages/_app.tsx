@@ -4,11 +4,11 @@ function MyApp({ Component, pageProps }) {
   
   return (
     <>
-      <header className="bg-workattack flex justify-center">
+      {/* <header className="bg-workattack flex justify-center">
         <a className="text-white" href="/">
           WorkAttack
         </a>
-      </header>
+      </header> */}
       <Component {...pageProps} />
     </>
   );

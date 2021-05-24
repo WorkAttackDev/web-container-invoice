@@ -14,17 +14,17 @@ return (
         <div key={_ui.order} className="flex-1">
           <span className="mb-2 flex flex-col">
               <strong>Conta {_ui.order}:</strong>
-              <p className="w-4/5">{_ui.name}</p>
+              <p className="w-4/5 text-sm">{_ui.name}</p>
           </span>
 
           <span className="mb-2 flex flex-col">
               <strong>Localização:</strong>
-              <p className="w-4/5">{_ui.adress}</p>
+              <p className="w-4/5 text-sm">{_ui.adress}</p>
           </span>
 
           <span className="flex flex-col">
               <strong>Contactos</strong>
-              <p className="w-4/5">{_ui.contact}</p>
+              <p className="w-4/5 text-sm">{_ui.contact}</p>
           </span>
         </div>
       ))
