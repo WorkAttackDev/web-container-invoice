@@ -21,14 +21,14 @@ return (
           <h3 className="w-1/2 font-medium">{_ivid.description}</h3>
           <p className="w-1/6">{formatPrice(_ivid.price)}</p>
           <p className="w-1/6 text-center">{_ivid.quantity}</p>
-          <p className="w-1/6 text-right">{formatPrice(_ivid.totalPrice)}</p>
+          <p className="w-1/6 text-right">{formatPrice(_ivid.price * _ivid.quantity)}</p>
         </li>
       ))}
     </ul>
     <div className="flex flex-col ml-auto pr-8 text-sm  w-1/2">
       <span className="flex justify-between pt-4 border-t-2">
         <h5>Subtotal</h5>
-        <p>400.000 Kz</p>
+        <p>200.000 Kz</p>
       </span>
       <span className="flex justify-between pt-2">
         <h5>Disconto</h5>
@@ -40,7 +40,7 @@ return (
       </span>
       <strong className="flex justify-between pt-2">
         <h5>Total a Pagar</h5>
-        <p>400.000 Kz</p>
+        <p>200.000 Kz</p>
       </strong>
       <span className="flex justify-between pt-2">
         <h5>Total Pago</h5>

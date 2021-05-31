@@ -2,23 +2,21 @@ import InvoiceItem from '../models/InvoiceItem';
 
 const invoiceItemsData: InvoiceItem[] = [
   {
-    description: 'Criação de logotipo',
-    price: 40_000,
-    quantity: 1,
-    totalPrice: 40_000
+    description: 'Animação Tigra Cubes',
+    price: 50_000,
+    quantity: 1
   },
   {
-    description: 'Animação de Vídeo',
-    price: 80_000,
-    quantity: 1,
-    totalPrice: 80_000
-  },
-  {
-    description: 'Creação e hopedagem de website',
-    price: 200_000,
-    quantity: 1,
-    totalPrice: 200_000
+    description: 'BPC Imobiliária Animação',
+    price: 150_000,
+    quantity: 1
   }
+  // {
+  //   description: 'Creação e hopedagem de website',
+  //   price: 200_000,
+  //   quantity: 1,
+  //   totalPrice: 200_000
+  // }
 ];
 
 export default invoiceItemsData;

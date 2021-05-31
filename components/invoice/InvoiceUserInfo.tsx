@@ -1,9 +1,9 @@
 type Props = {};
 
 const usersInfo = [
-  {adress: "Nova vida rua 70 predio 165 apartamento 6", contact: "999 999 000", name: "WorkAttack",nif: "12345678", order: "De"},
-  {adress: "cliente rua 70 predio 165 apartamento 6", contact: "999 999 000", name: "Cliente", nif: "12345678", order: "Para"},
-]
+  {adress: "Nova vida rua 70 predio 165 apartamento 6. Luanda - Angola", contact: "+244 997 267 270", name: "WORKATTACK", nif: "5000675830", order: "De"},
+  {adress: "martes rua 7 casa n. 15 (edel), marteres - maianga. Luanda - Angola", contact: "+244 922 383 536", name: "BMWORKZ LDA", nif: "5417226211", order: "Para"},
+];
 
 const InvoiceUserInfo: React.FC<Props> = () => {
 
