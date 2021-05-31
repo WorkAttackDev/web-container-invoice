@@ -15,7 +15,7 @@ return (
       </span>
       <span className="flex justify-between pt-2 text-sm">
         <h5 className="font-medium">Nome da Conta</h5>
-        <p>Edson Florival Pinto Calala</p>
+        <p className="uppercase">Edson Florival Pinto Calala</p>
       </span>
   </section>
 );

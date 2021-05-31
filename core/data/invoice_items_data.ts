@@ -3,12 +3,12 @@ import InvoiceItem from '../models/InvoiceItem';
 const invoiceItemsData: InvoiceItem[] = [
   {
     description: 'Animação Tigra Cubes',
-    price: 50_000,
+    price: 55_000,
     quantity: 1
   },
   {
     description: 'BPC Imobiliária Animação',
-    price: 150_000,
+    price: 145_000,
     quantity: 1
   }
   // {

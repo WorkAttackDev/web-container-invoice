@@ -10,7 +10,7 @@ const formatPrice = (value: number) => new Intl.NumberFormat('de-DE').format(val
 return (
   <section className="">
     <ul className="flex py-4 px-8 bg-gray-100">
-      <li className="w-1/2 uppercase font-bold text-xs">item</li>
+      <li className="w-1/2 uppercase font-bold text-xs">item(s)</li>
       <li className="w-1/6 uppercase font-bold text-xs">custo</li>
       <li className="w-1/6 uppercase font-bold text-xs text-center">Qtd</li>
       <li className="w-1/6 uppercase font-bold text-xs text-right">preço</li>
