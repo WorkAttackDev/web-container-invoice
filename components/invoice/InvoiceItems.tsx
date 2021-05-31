@@ -6,6 +6,7 @@ type Props = {};
 const InvoiceItems: React.FC<Props> = () => {
 
 const formatPrice = (value: number) => new Intl.NumberFormat('de-DE').format(value) + " Kz";
+const calcTotal = (itemsValue: number[]) => itemsValue.reduce((acc, curr) => acc+= curr.price * curr.quantity, 0);
 
 return (
   <section className="">
@@ -28,7 +29,7 @@ return (
     <div className="flex flex-col ml-auto pr-8 text-sm  w-1/2">
       <span className="flex justify-between pt-4 border-t-2">
         <h5>Subtotal</h5>
-        <p>200.000 Kz</p>
+        <p>{formatPrice(calcTotal(invoiceItemsData))}</p>
       </span>
       <span className="flex justify-between pt-2">
         <h5>Disconto</h5>
@@ -40,7 +41,7 @@ return (
       </span>
       <strong className="flex justify-between pt-2">
         <h5>Total a Pagar</h5>
-        <p>200.000 Kz</p>
+        <p>{formatPrice(calcTotal(invoiceItemsData))}</p>
       </strong>
       <span className="flex justify-between pt-2">
         <h5>Total Pago</h5>
